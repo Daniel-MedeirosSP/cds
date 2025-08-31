@@ -1,0 +1,13 @@
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/CdsApplication.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/app/a.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/app/controller/DependenciesController.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/app/dto/DependenciesDto.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/app/dto/DependencyDto.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/app/service/DependenciesService.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/app/to/DependenciesTo.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/app/to/DependencyTo.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/domain/Dependency.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/domain/DependencysDomain.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/infra/WebMvcConfig.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/infra/a.java
+/Users/danielmedeiros/repos/pessoal/cds/src/main/java/com/medeirosdaniel/cds/infra/logger/LoggerInterceptor.java

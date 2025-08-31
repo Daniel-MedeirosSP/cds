@@ -1,3 +1,11 @@
+server:
+  servlet:
+    context-path: /cds
+
+
+
+
+
 logging:
   file:
     name: acesso.log

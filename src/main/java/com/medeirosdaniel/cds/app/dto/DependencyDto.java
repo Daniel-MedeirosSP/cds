@@ -10,9 +10,15 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class DependencyDto {
+
     private String name;
+
     private String version;
-    private boolean obsolete = false;
-    private boolean deprecated = false;
+
+    private Boolean isObsoleted = Boolean.FALSE;
+
+    private String suggestedVersion;
+
+    private String versionLatest;
 
 }

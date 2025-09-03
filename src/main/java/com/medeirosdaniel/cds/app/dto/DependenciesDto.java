@@ -1,5 +1,6 @@
 package com.medeirosdaniel.cds.app.dto;
 
+import com.medeirosdaniel.cds.domain.Dependency;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,6 +15,17 @@ import java.util.List;
 public class DependenciesDto {
 
     private String technology;
+    private String technologyVersion;
+    private Boolean isObsoleted = Boolean.FALSE;
+    private String technologyVersionLatest;
+    private String eol;
+
+
+    private String suggestedLtsVersion; //21
+    private String suggestedTechnologyVersion; //21.0.6
+    private String suggestedEol;
+
+
     private String dependencyManager;
-    private List<DependencyDto> dependencies;
+    private List<Dependency> dependencies;
 }

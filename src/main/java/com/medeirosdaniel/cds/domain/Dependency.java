@@ -16,5 +16,10 @@ public class Dependency {
 
     private String version;
 
-    private String scope;
+    private Boolean isObsoleted = Boolean.FALSE;
+
+    private String suggestedVersion;
+
+    private String versionLatest;
+
 }

@@ -20,6 +20,10 @@ public class DependenciesTo {
     private String technologyVersion;
     @JsonProperty("dependency_manager")
     private String dependencyManager;
+    @JsonProperty("framework")
+    private String framework;
+    @JsonProperty("framework_version")
+    private String frameworkVersion;
     @JsonProperty("dependencies")
     private List<DependencyTo> dependencies;
 }

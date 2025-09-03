@@ -14,3 +14,23 @@ logging:
     com.medeirosdaniel.cds.infra.logger.LoggerInterceptor: INFO
   pattern:
     file: '%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n'
+
+
+
+endoflife:
+  url: https://endoflife.date/api/
+  #tecnologias suportadas
+  java: oracle-jdk.json
+  dotnet: dotnet.json
+  nodejs: nodejs.json
+  python: python.json
+  #frameworks suportados
+  springboot: spring.json
+  quarkus: quarkus.json
+  react: react.json
+  angular: angular.json
+  vue: vue.json
+
+depsdev:
+  url: https://api.deps.dev/v3/systems/
+  packages: /packages/

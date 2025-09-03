@@ -3,7 +3,6 @@ package com.medeirosdaniel.cds.app.controller;
 import com.medeirosdaniel.cds.app.dto.DependenciesDto;
 import com.medeirosdaniel.cds.app.service.DependenciesService;
 import com.medeirosdaniel.cds.app.to.DependenciesTo;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,7 +18,7 @@ public class DependenciesController {
 
     @PostMapping("/check")
     public ResponseEntity<DependenciesDto> checkDependencies(@RequestBody DependenciesTo dependenciesTo) {
-        return ResponseEntity.ok((dependenciesService.check(dependenciesTo)));
+        return ResponseEntity.ok((dependenciesService.checkValues(dependenciesTo)));
     }
 
     @GetMapping("/test")
